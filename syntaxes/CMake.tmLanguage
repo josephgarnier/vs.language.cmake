@@ -191,6 +191,107 @@ ANDROID_MK
 
 		<dict>
 			<key>comment</key>
+			<string>file() Sub Commands</string>
+			<key>match</key>
+			<string>(?x)\b(
+APPEND
+|CONDITION
+|CONFIGURE_DEPENDS
+|CONTENT
+|COPY
+|DIRECTORY
+|DIRECTORY_PERMISSIONS
+|DOWNLOAD
+|ENCODING
+|EXCLUDE
+|EXPECTED_HASH
+|EXPECTED_MD5
+|FILE
+|FILE_PERMISSIONS
+|FILES_MATCHING
+|FOLLOW_SYMLINKS
+|FUNCTION
+|GENERATE
+|GLOB
+|GLOB_RECURSIVE
+|GUARD
+|HEX
+|HTTPHEADER
+|INACTIVITY_TIMEOUT
+|INPUT
+|INSTALL
+|LENGTH_MAXIMUM
+|LENGTH_MINIMUM
+|LIMIT
+|LIMIT_COUNT
+|LIMIT_INPUT
+|LIMIT_OUTPUT
+|LIST_DIRECTORIES
+|LOCK
+|LOG
+|MAKE_DIRECTORY
+|NETRC
+|NETRC_FILE
+|NEWLINE_CONSUME
+|NO_HEX_CONVERSION
+|NO_SOURCE_PERMISSIONS
+|OFFSET
+|OUTPUT
+|PATTERN
+|PERMISSIONS
+|PROCESS
+|READ
+|REGEX
+|REGEX
+|RELATIVE
+|RELATIVE_PATH
+|RELEASE
+|REMOVE
+|REMOVE_RECURSIVE
+|RENAME
+|RESULT_VARIABLE
+|SHOW_PROGRESS
+|STATUS
+|STRINGS
+|TIMEOUT
+|TIMESTAMP
+|TLS_CAINFO
+|TLS_VERIFY
+|TO_CMAKE_PATH
+|TO_NATIVE_PATH
+|TOUCH
+|TOUCH_NOCREATE
+|UPLOAD
+|USE_SOURCE_PERMISSIONS
+|USERPWD
+|UTC
+|WRITE
+			)\b</string>
+			<key>name</key>
+			<string>keyword.cmake</string>
+		</dict>
+
+		<dict>
+			<key>comment</key>
+			<string>file() Options</string>
+			<key>match</key>
+			<string>(?x)\b(
+ALGO
+|IGNORED
+|OPTIONAL
+|REQUIRED
+|UTF-16BE
+|UTF-16LE
+|UTF-32BE
+|UTF-32LE
+|UTF-8
+			)\b</string>
+			<key>name</key>
+			<string>variable.source.cmake</string>
+		</dict>
+
+		<dict>
+			<key>comment</key>
 			<string>install() Sub Commands</string>
 			<key>match</key>
 			<string>(?x)\b(		
