@@ -191,6 +191,26 @@ ANDROID_MK
 
 		<dict>
 			<key>comment</key>
+			<string>Hash Types</string>
+			<key>match</key>
+			<string>(?x)\b(
+MD5
+SHA1
+SHA224
+SHA256
+SHA384
+SHA512
+SHA3_224
+SHA3_256
+SHA3_384
+SHA3_512
+			)\b</string>
+			<key>name</key>
+			<string>keyword.cmake</string>
+		</dict>
+
+		<dict>
+			<key>comment</key>
 			<string>file() Sub Commands</string>
 			<key>match</key>
 			<string>(?x)\b(
