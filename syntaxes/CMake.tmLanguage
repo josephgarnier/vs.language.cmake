@@ -164,7 +164,7 @@ break
 |if
 |macro
 |return
-|endwhile
+|while
 			)\b</string>
 			<key>name</key>
 			<string>keyword.control.cmake</string>
