@@ -350,7 +350,7 @@ add_compile_definitions
 		
 		<dict>
 			<key>comment</key>
-			<string>Derecated keyword</string>
+			<string>Deprecated keyword</string>
 			<key>match</key>
 			<string>\bBUILD_NAME\b</string>
 			<key>name</key>
