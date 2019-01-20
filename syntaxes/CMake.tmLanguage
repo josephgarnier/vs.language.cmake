@@ -173,6 +173,79 @@ break
 
 		<dict>
 			<key>comment</key>
+			<string>install() Sub Commands</string>
+			<key>match</key>
+			<string>(?x)\b(		
+ARCHIVE\s+DESTINATION
+|CODE
+|COMPONENT
+|CONFIGURATIONS
+|DESTINATION
+|DIRECTORY
+|DIRECTORY_PERMISSIONS 
+|EXCLUDE
+|EXCLUDE_FROM_ALL
+|EXPORT_ANDROID_MK
+|EXPORT_LINK_INTERFACE_LIBRARIES
+|EXPORT
+|FILES
+|FILES_MATCHING
+|FILE_PERMISSIONS
+|INCLUDES\s+DESTINATION
+|LIBRARY\s+DESTINATION
+|MESSAGE_NEVER
+|NAMELINK_COMPONENT
+|NAMELINK_ONLY
+|NAMELINK_SKIP
+|NAMESPACE
+|OPTIONAL
+|PATTERN
+|PERMISSIONS
+|PROGRAMS
+|REGEX
+|RENAME
+|RUNTIME\s+DESTINATION
+|SETGID
+|SETUID
+|SCRIPT
+|TARGETS
+|USE_SOURCE_PERMISSIONS
+			)\b</string>
+			<key>name</key>
+			<string>keyword.cmake</string>
+		</dict>
+
+		<dict>
+			<key>comment</key>
+			<string>install() Options</string>
+			<key>match</key>
+			<string>(?x)\b(
+ARCHIVE
+|BUNDLE
+|FRAMEWORK
+|GROUP_EXECUTE
+|GROUP_READ
+|GROUP_WRITE
+|LIBRARY
+|MACOSX_BUNDLE
+|OBJECTS
+|OWNER_EXECUTE
+|OWNER_READ
+|OWNER_WRITE
+|PRIVATE_HEADER
+|PUBLIC_HEADER
+|RESOURCE
+|RUNTIME
+|WORLD_EXECUTE
+|WORLD_READ
+|WORLD_WRITE
+			)\b</string>
+			<key>name</key>
+			<string>variable.source.cmake</string>
+		</dict>
+
+		<dict>
+			<key>comment</key>
 			<string>cmakeOperators</string>
 			<key>match</key>
 			<string>(?x)\b(
