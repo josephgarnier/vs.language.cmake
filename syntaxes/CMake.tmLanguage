@@ -173,6 +173,24 @@ break
 
 		<dict>
 			<key>comment</key>
+			<string>export() Sub Commands</string>
+			<key>match</key>
+			<string>(?x)\b(
+ANDROID_MK
+|APPEND
+|EXPORT
+|EXPORT_LINK_INTERFACE_LIBRARIES
+|FILE
+|NAMESPACE
+|PACKAGE
+|TARGETS
+			)\b</string>
+			<key>name</key>
+			<string>keyword.cmake</string>
+		</dict>
+
+		<dict>
+			<key>comment</key>
 			<string>install() Sub Commands</string>
 			<key>match</key>
 			<string>(?x)\b(		
