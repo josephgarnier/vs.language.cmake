@@ -39,14 +39,6 @@ break
 
 		<dict>
 			<key>comment</key>
-			<string>Variables That Describe the System</string>
-			<key>match</key>
-			<string></string>
-			<key>name</key>
-			<string>constant.source.cmake</string>
-		</dict>
-		<dict>
-			<key>comment</key>
 			<string>cmakeOperators</string>
 			<key>match</key>
 			<string>(?x)\b(
@@ -258,14 +250,6 @@ add_compile_definitions
 			<string>support.function.cmake</string>
 		</dict>
 		<dict>
-			<key>comment</key>
-			<string>Variables That Change Behavior</string>
-			<key>match</key>
-			<string></string>
-			<key>name</key>
-			<string>variable.source.cmake</string>
-		</dict>
-		<dict>
 			<key>match</key>
 			<string>\$\{\w+\}</string>
 			<key>name</key>
@@ -276,22 +260,6 @@ add_compile_definitions
 			<string>\$ENV\{\w+\}</string>
 			<key>name</key>
 			<string>support.type.cmake</string>
-		</dict>
-		<dict>
-			<key>comment</key>
-			<string>Variables that Control the Build</string>
-			<key>match</key>
-			<string></string>
-			<key>name</key>
-			<string>variable.source.cmake</string>
-		</dict>
-		<dict>
-			<key>comment</key>
-			<string>Variables that Provide Information</string>
-			<key>match</key>
-			<string></string>
-			<key>name</key>
-			<string>variable.source.cmake</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -341,54 +309,6 @@ add_compile_definitions
 		</dict>
 		<dict>
 			<key>comment</key>
-			<string>Properties on Cache Entries</string>
-			<key>match</key>
-			<string></string>
-			<key>name</key>
-			<string>entity.source.cmake</string>
-		</dict>
-		<dict>
-			<key>comment</key>
-			<string>Properties on Source Files</string>
-			<key>match</key>
-			<string></string>
-			<key>name</key>
-			<string>entity.source.cmake</string>
-		</dict>
-		<dict>
-			<key>comment</key>
-			<string>Properties on Tests</string>
-			<key>match</key>
-			<string></string>
-			<key>name</key>
-			<string>entity.source.cmake</string>
-		</dict>
-		<dict>
-			<key>comment</key>
-			<string>Properties on Directories</string>
-			<key>match</key>
-			<string></string>
-			<key>name</key>
-			<string>entity.source.cmake</string>
-		</dict>
-		<dict>
-			<key>comment</key>
-			<string>Properties of Global Scope</string>
-			<key>match</key>
-			<string></string>
-			<key>name</key>
-			<string>entity.source.cmake</string>
-		</dict>
-		<dict>
-			<key>comment</key>
-			<string>Properties on Targets</string>
-			<key>match</key>
-			<string></string>
-			<key>name</key>
-			<string>entity.source.cmake</string>
-		</dict>
-		<dict>
-			<key>comment</key>
 			<!-- cf https://github.com/twxs/vs.language.cmake/issues/14 -->
 			<string>Escaped Strings</string>
 			<key>begin</key>
@@ -435,14 +355,6 @@ add_compile_definitions
 			<string>\bBUILD_NAME\b</string>
 			<key>name</key>
 			<string>invalid.deprecated.source.cmake</string>
-		</dict>
-		<dict>
-			<key>comment</key>
-			<string>Compiler Flags</string>
-			<key>match</key>
-			<string></string>
-			<key>name</key>
-			<string>variable.source.cmake</string>
 		</dict>
 		
 		<dict>
