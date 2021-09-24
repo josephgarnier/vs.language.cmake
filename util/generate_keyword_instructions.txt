@@ -5,6 +5,9 @@ instructions:
     cmake --help-command-list > command_list.txt
     cmake --help-variable-list > variable_list.txt
 
+- remove Control Flow keywords from command-list file
+    regex replace "(break|continue|elseif|else|endif|endforeach|endfunction|endmacro|endwhile|foreach|function|if|macro|return|while)\n" with ""
+
 - remove blank lines (taken from https://stackoverflow.com/questions/31412765/regex-to-remove-white-spaces-blank-lines-and-final-line-break-in-javascript)
     regex replace "^(?=\n)$|^\s*|\s*$|\n\n+" with ""
 
