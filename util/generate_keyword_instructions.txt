@@ -14,7 +14,7 @@ instructions:
 - replace line feeds with carriage return + line feed + | (\r\n for windows, | for textmate regex)
     replace "\n" with "\r\n|"
 
-replace variable string (i.e. <CONFIG>) with regex equivalent
+- replace variable string (i.e. <CONFIG>) with regex equivalent
     regex replace "<[^\s]+>" with "\\w+"
 
 - copy generated keyword lists into relevent areas in .tmlanguage file
