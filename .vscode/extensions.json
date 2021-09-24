@@ -1,0 +1,9 @@
+{
+	"recommendations": [
+		"dbaeumer.vscode-eslint",
+		"ecmel.vscode-html-css",
+		"zignd.html-css-class-completion",
+		"christian-kohler.npm-intellisense",
+		"visualstudioexptteam.vscodeintellicode"
+	]
+}
